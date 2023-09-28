@@ -1,0 +1,9 @@
+.tgrey{
+    background-color: rgba(0, 175, 245, 0.253); text-align: center; color: white;
+} body{
+    background-color: rgb(12, 60, 114);
+} .Texto{
+    color: white; font-family: cursive;
+} .texto {
+    color: aqua;
+}

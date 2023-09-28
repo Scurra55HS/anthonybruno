@@ -2,24 +2,26 @@
 <html lang="pt_BR">
 <head>
     
-    <p>
+    <p class="texto">
         <strong>Nome</strong>:Anthony Bruno <br>
         <strong>E-mail</strong>:anthonybrunoprogramador@gmail.com
     </p>
+    <link rel="stylesheet" href="contatostyle.css">
+    </head>
     <hr>
 
     <form action="mailto:anthonybrunoprogramador@gmail.com" method="post">
-        <label for="nome">Digite seu nome</label> <br>
+        <label for="nome" class="texto">Digite seu nome</label> <br>
         <input type="text" id="nome" placeholder="Ex.: Manoel Gomes" required> <br>
 
-        <label for="email">Digite seu E-mail</label><br>
+        <label for="email" class="texto">Digite seu E-mail</label><br>
         <input type="email" id="email" placeholder="Ex.: email@gmail.com" required> <br>
 
-        <label for="mensagem">Digite sua mensagem</label> <br>
-        <textarea id="mensagem" cols="21" rows="5" required></textarea> <br>
+        <label for="mensagem" class="texto">Digite sua mensagem</label> <br>
+        <textarea id="mensagem" cols="21" rows="5" required placeholder="Olá, eu sou..."></textarea> <br>
 
         <input type="submit" value="Enviar">
     </form>
-    <h4><a href="./index.html">Voltar</a></h4>
+    <h4><a href="./index.html" class="texto">Voltar</a></h4>
 </body>
 </html>
